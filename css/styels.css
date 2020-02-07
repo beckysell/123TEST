@@ -1,0 +1,47 @@
+nav {
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    z-index: 100;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav li {
+    width: 100px;   
+}
+
+/* ---- THIS IS BEING USED IN THE REVEAL SLIDESHOW */
+.reveal {
+    font-size: 150px;
+    background-color: red;
+}
+
+#page1 {
+    width: 100%;
+    height: 100vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*---- size or position the iframe ---- */
+iframe {
+    width: 80%;
+    height: 80vh;
+}
+
+#page2 {
+    width: 100%;
+    height: 100vh;
+    background-color: green;
+    font-size: 100px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
